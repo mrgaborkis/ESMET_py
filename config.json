@@ -1,0 +1,16 @@
+{
+  "settings": {
+    "input_delimiter": "\t",
+    "output_delimiter": "|"
+  },
+  "mappings": [
+    { "source": "emp_id", "alias": "EmployeeID", "transform": ["TRIM", "LPAD:6|0", "VALIDATE:NOT_NULL"] },
+    { "source": "first_name", "alias": "FirstName", "transform": ["TRIM", "CAPITALIZE"] },
+    { "source": "last_name", "alias": "LastName", "transform": ["TRIM", "UPPER"] },
+    { "source": "raw_salary", "alias": "AnnualSalary", "transform": ["REPLACE:$|", "REPLACE:,|", "VALIDATE:NUMERIC", "CAST:FLOAT", "COALESCE:0"] },
+    { "source": "dept_code", "alias": "Department", "transform": ["UPPER", "LEFT:3", "VALIDATE:NOT_NULL"] },
+    { "source": "bonus_pct", "alias": "BonusMultiplier", "transform": ["DIVIDE:100", "CAST:FLOAT", "COALESCE:0"] },
+    { "source": "phone_raw", "alias": "CleanPhone", "transform": ["CLEAN_PHONE", "VALIDATE:NOT_NULL"] },
+    { "source": "hire_date", "alias": "JoinDateKey", "transform": ["DT_TO_YYMMDD", "VALIDATE:NOT_NULL"] }
+  ]
+}

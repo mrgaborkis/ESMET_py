@@ -1,0 +1,21 @@
+emp_id	first_name	last_name	raw_salary	dept_code	bonus_pct	phone_raw	hire_date	email	gender	office_loc	mgr_id	status	shift	notes
+101	gabor	szabo	$95,000	FINANCE	10	(555) 123-4567	2023/01/15	g@co.com	M	NY	M1	ACT	D1	None
+102	tony	stark	$150,000	ENG-TECH	15	555-999-0000	2022/11/10	t@stark.com	M	CA	M2	ACT	D1	None
+103	maria	garcia	$110,000	SALES-WEST	12	123.456.7890	2021/05/20	m@co.com	F	TX	M1	ACT	D2	None
+ERR_ID	bad	data	NOT_A_NUM	FAIL	XX	NONE	2020/01/01	x@x.com	X	X	X	X	X	BadRecord
+105	stephen	strange	$200,000	MED-SURG	20	(888) 000-1111	2019/03/12	s@med.com	M	NY	M3	ACT	N1	None
+106	natasha	romanoff	$130,000	INTEL-OPS	18	555-111-2222	2018/07/04	n@ops.com	F	RU	M2	ACT	D1	None
+	missing	id	$50,000	NULL	5	000-000-0000	2024/01/01	err@co.com	F	UK	M1	ACT	D1	NullID
+108	bruce	banner	$180,000	SCI-LAB	25	111-222-3333	2017/12/25	b@lab.com	M	NM	M3	ACT	N2	None
+109	wanda	maximoff	$140,000	HEX-MGMT	15	222-333-4444	2020/10/31	w@co.com	F	NJ	M2	ACT	D1	None
+110	vision	android	$160,000	AI-DEPT	10	333-444-5555	2020/10/31	v@co.com	M	NJ	M2	ACT	D1	None
+111	peter	parker	$45,000	PHOTO-NY	5	444-555-6666	2023/08/15	p@co.com	M	NY	M1	ACT	D1	None
+112	thor	odinson	STRIKE	ASGARD	100	999-999-9999	0001/01/01	t@as.com	M	Space	M5	ACT	D1	BadSalary
+113	loki	laufeyson	$85,000	MISCHIEF	10	000-000-0001	2011/05/06	l@as.com	M	Space	M5	ACT	D1	None
+114	sam	wilson	$90,000	AVENG-AIR	12	555-444-3333	2014/04/04	s@co.com	M	DC	M2	ACT	D1	None
+115	bucky	barnes	$88,000	SOLDIER	7		1945/01/01	b@co.com	M	DE	M2	ACT	D1	MissingPhone
+116	scott	lang	$75,000	QUANTUM	8	123-123-1234	2015/07/17	s@co.com	M	CA	M1	ACT	D1	None
+117	hope	vandyne	$125,000	QUANTUM	15	321-321-4321	2015/07/17	h@co.com	F	CA	M1	ACT	D1	None
+118	carol	danvers	$250,000	SPACE-OPS	20	888-888-8888	2019/03/08	c@co.com	F	Space	M5	ACT	D1	None
+119	nick	fury	$300,000	DIRECTOR	null		1995/01/01	n@co.com	M	DC	M0	ACT	D1	NullBonus
+120	t-challa	king	$500,000	WAKANDA	50	111-000-1111	2016/05/06	t@wa.com	M	AF	M4	ACT	D1	None
