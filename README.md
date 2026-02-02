@@ -1,7 +1,7 @@
-# ESMET_py - ESMETL Technical Documentation
-Enterprise SQL DBA friendly Metadata Driven ET Python engine json driven extensible engine readme
+# ESMETL Technical Documentation
+Enterprise SQL DBA friendly Configuration via JSON no programming
 
-### Enterprise SQL-Compatible Metadata-Driven ETL Framework
+### SQL-Compatible Metadata-Driven ETL Framework
 
 **ESMETL** is a Python-based ingestion engine designed to decouple business logic from source code.
 By utilizing a **Metadata Markup Language (MML)** via JSON,
